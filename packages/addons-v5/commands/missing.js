@@ -3,7 +3,7 @@
 const cli = require('heroku-cli-util')
 
 async function run() {
-  cli.log('Hello World!')
+  cli.log('You found me!')
 }
 
 module.exports = {
