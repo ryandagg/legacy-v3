@@ -10,6 +10,8 @@ async function run(context) {
 
 module.exports = {
   description: 'print flag & arg',
+  topic: 'print',
+  command: 'args',
   flags: [
     {
       name: 'word',
