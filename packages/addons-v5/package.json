@@ -16,24 +16,14 @@
   "dependencies": {
     "@heroku-cli/notifications": "^1.2.2",
     "heroku-cli-util": "^8.0.11",
-    "lodash": "^4.17.11",
-    "printf": "0.6.1"
+    "lodash": "^4.17.11"
   },
   "devDependencies": {
     "@oclif/command": "1.8.15",
     "@oclif/core": "^1.26.2",
     "@oclif/plugin-legacy": "^1",
-    "chai": "^4.2.0",
-    "chai-as-promised": "^7.1.1",
     "heroku-client": "^3.0.7",
-    "lolex": "^3.1.0",
-    "mocha": "^5.2.0",
-    "nock": "^11.9.1",
-    "nyc": "^15.1.0",
-    "oclif": "3.11.3",
-    "proxyquire": "^2.1.0",
-    "sinon": "^6.3.5",
-    "theredoc": "^1.0.0"
+    "oclif": "3.11.3"
   },
   "files": [
     "oclif.manifest.json",
@@ -49,12 +39,6 @@
   "main": "index.js",
   "repository": "heroku/cli",
   "scripts": {
-    "lint": "eslint . --ext .js --config ../../.eslintrc --ignore-path ../../.eslintignore",
-    "postpublish": "rm oclif.manifest.json",
-    "posttest": "yarn lint",
-    "prepack": "oclif manifest",
-    "release": "np",
-    "test": "mocha --forbid-only \"test/**/*.unit.test.js\"  && yarn lint",
-    "version": "oclif readme && git add README.md"
+    "prepack": "oclif manifest"
   }
 }
