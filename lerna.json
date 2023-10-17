@@ -1,0 +1,14 @@
+{
+  "version": "9.0.0-alpha.0",
+  "useWorkspaces": true,
+  "npmClient": "yarn",
+  "command": {
+    "publish": {
+      "allowBranch": [
+        "main",
+        "release-*"
+      ],
+      "conventionalCommits": true
+    }
+  }
+}
