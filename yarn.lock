@@ -2407,7 +2407,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@oclif/core@npm:^3, @oclif/core@npm:^3.3.1":
+"@oclif/core@npm:^3.3.1":
   version: 3.3.2
   resolution: "@oclif/core@npm:3.3.2"
   dependencies:
@@ -2437,6 +2437,39 @@ __metadata:
     wordwrap: ^1.0.0
     wrap-ansi: ^7.0.0
   checksum: 3c8c176d40a180e81c273cfa6549d220fa55faef668441c20860555d1bd4f1711d81f6d94248a63703f4f52eef98ac243bef15636d2c46d84435df38d064a731
+  languageName: node
+  linkType: hard
+
+"@oclif/core@npm:^3.3.3-dev.0":
+  version: 3.7.1
+  resolution: "@oclif/core@npm:3.7.1"
+  dependencies:
+    ansi-escapes: ^4.3.2
+    ansi-styles: ^4.3.0
+    cardinal: ^2.1.1
+    chalk: ^4.1.2
+    clean-stack: ^3.0.1
+    cli-progress: ^3.12.0
+    debug: ^4.3.4
+    ejs: ^3.1.9
+    get-package-type: ^0.1.0
+    globby: ^11.1.0
+    hyperlinker: ^1.0.0
+    indent-string: ^4.0.0
+    is-wsl: ^2.2.0
+    js-yaml: ^3.14.1
+    natural-orderby: ^2.0.3
+    object-treeify: ^1.1.33
+    password-prompt: ^1.1.2
+    slice-ansi: ^4.0.0
+    string-width: ^4.2.3
+    strip-ansi: ^6.0.1
+    supports-color: ^8.1.1
+    supports-hyperlinks: ^2.2.0
+    widest-line: ^3.1.0
+    wordwrap: ^1.0.0
+    wrap-ansi: ^7.0.0
+  checksum: 19e7dad7fcb7e7fea8678e664c9958c46171a3d0190fbb63e2bd0f801f3e0e369ec615b5cc4e98e8819bd35475bbf61baaf9c90ec0e6b8e6900a77429689a420
   languageName: node
   linkType: hard
 
@@ -8608,7 +8641,7 @@ __metadata:
     "@heroku/buildpack-registry": ^1.0.1
     "@heroku/eventsource": ^1.0.7
     "@oclif/command": 1.8.15
-    "@oclif/core": ^3
+    "@oclif/core": ^3.3.3-dev.0
     "@oclif/plugin-commands": 2.2.2
     "@oclif/plugin-help": ^5
     "@oclif/plugin-legacy": ^2.0.0-beta.1
